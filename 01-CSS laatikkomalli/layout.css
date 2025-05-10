@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightskyblue;
+  margin: 0;
+  border: 10px solid white;
+  font-size: 1em;
+  padding: 1rem white;
+}
+
+.box {
+  float: left;
+  font-size: 500%;
+  width: 1.2em;
+  text-align: center;
+  padding: 0.1em 0.1em 0;
+  margin: 0 0.5em 0.2em 0;
+  background: #568;
+  color: white;
+  border: solid white 1px;
+  border-width: 0 0.2em 0.2em 0;
+}
+.pre {
+  padding-left: 1px;
+}
+#first {
+  padding: 1rem 1rem 1rem 2rem;
+  border-block-end: 20px white solid;
+}
+
+#second {
+  border: 1px solid black;
+
+  border-block-end: 20px solid white;
+}
+
+#second h2 {
+  font-size: 1.5em;
+  text-align: right;
+  padding-right: 10px;
+  background-color: #568;
+  margin: -1px 0 0 0;
+}
+#second p {
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 1px solid black;
+}
+
+.float-left {
+  float: left;
+  width: 100px;
+  height: 70px;
+  text-align: center;
+  background: white;
+  color: black;
+  border: solid black 1px;
+  padding: 0 10px 5px 0;
+  margin: -1px 25px 10px -1px;
+}
+
+figure img {
+  height: 70px;
+  width: 100px;
+}
+
+.note-left {
+  width: 30rem;
+  float: left;
+  text-align: center;
+  background: white;
+  color: black;
+  border: solid black 1px;
+  padding: 0 10px 5px 0;
+  margin: -1px 25px 10px -1px;
+}
+.quote-right {
+  float: right;
+  width: 25%;
+  text-align: left;
+  font-size: 140%;
+  font-weight: bold;
+  font-style: italic;
+  padding: 1em;
+  text-indent: -0.5em;
+  background: white;
+  color: black;
+  border: solid black 1px;
+  border-width: 1px 0 1px 1px;
+  margin: 0.2em -1px 0.2em 0.5em;
+}
+
+#third {
+  border: 1px solid black;
+  margin-top: 20px solid white;
+}
+#third h2 {
+  font-size: 1.5em;
+  text-align: right;
+  padding-right: 10px;
+  background-color: #568;
+  margin: -1px 0 0 0;
+  border: 1px solid black;
+}
