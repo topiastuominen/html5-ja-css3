@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+h1 {
+  color: burlywood;
+}
+h2 {
+  color: rgb(16, 214, 16);
+}
+p {
+  color: rgb(255, 255, 255);
+}
+body {
+  background-color: darkslategray;
+  margin: 100px white solid;
+  border: 10px white solid;
+  padding: 10px;
+}
+.strong-text {
+  font-weight: bold;
+  color: lightskyblue;
+}
+.red-text {
+  color: red;
+}
+.line-through-text {
+  text-decoration: line-through;
+}
+.underline-text {
+  text-decoration: underline;
+}
