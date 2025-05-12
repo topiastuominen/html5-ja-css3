@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: red;
+  color: white;
+  padding: 5px;
+}
+p {
+  color: white;
+}
+nav {
+  background-color: darkorange;
+
+  padding: 5px;
+}
+section {
+  background-color: yellow;
+
+  float: left;
+  width: 50%;
+  overflow: hidden;
+}
+#kappale1 {
+  background-color: lawngreen;
+
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: -10px;
+  text-align: left;
+}
+#kappale2 {
+  background-color: lawngreen;
+
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+aside {
+  background-color: blue;
+  float: left;
+  width: 50%;
+  height: 100%;
+
+  padding-bottom: 170px;
+  margin-bottom: -25px;
+  margin-top: -19px;
+}
+
+footer {
+  background-color: purple;
+  padding: 5px;
+  clear: both;
+}
