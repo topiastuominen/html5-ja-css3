@@ -1,0 +1,122 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Gotham", Helvetica, Arial, sans-serif;
+  background-color: darkcyan;
+  padding: 1rem;
+}
+@media screen and (min-width: 424px) {
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+/* lapsien säännöt */
+.wrapper > * {
+  padding: 1rem;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+/* Tablet näkymä */
+@media screen and (min-width: 426px) {
+  .wrapper {
+    flex-direction: row;
+  }
+
+  .aside-1 {
+    flex-basis: auto;
+  }
+  .aside-2 {
+    flex-basis: auto;
+  }
+}
+/* Desktop näkymä */
+@media screen and (min-width: 769px) {
+  body {
+    background-color: darkcyan;
+  }
+  .wrapper .aside-1 {
+    order: 1;
+  }
+  .wrapper .main {
+    order: 2;
+    flex-basis: 0;
+    flex-grow: 2;
+  }
+  .wrapper .aside-2 {
+    order: 3;
+    flex-basis: 0px;
+  }
+  .footer {
+    order: 4;
+  }
+}
+p {
+  padding-bottom: 10px;
+}
+.header {
+  background-color: gold;
+}
+.main {
+  background-color: darkorange;
+  padding: 10px;
+}
+.aside-1 {
+  background-color: mediumseagreen;
+}
+.aside-2 {
+  background-color: seagreen;
+}
+
+.footer {
+  background-color: lightgreen;
+}
+ul {
+  list-style-type: none;
+  margin: -10px;
+  padding: -10px;
+  overflow: hidden;
+  background-color: lightgrey;
+  display: flex;
+}
+li {
+  float: left;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+}
+
+.Social-media ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  color: white;
+}
+.Social-media ul > * {
+  padding: 1rem;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+.Social-media li {
+  float: left;
+  display: flex;
+  flex-grow: 1;
+  padding: 15px;
+  justify-content: center;
+  border: 1px solid black;
+}
+.Facebook {
+  background-color: blue;
+}
+.Twitter {
+  background-color: skyblue;
+}
+.Email {
+  background-color: darkgrey;
+}
