@@ -1,0 +1,85 @@
+/* Base */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: lightsalmon;
+  color: darkmagenta;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+/* Headings */
+/* Headings */
+h1 {
+  font-size: 3.2rem; /* 2 × 1.6rem = 51.2px */
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 1.6rem; /* 25.6px */
+  margin-bottom: 1rem;
+}
+
+/* Visibility boxes */
+.mobile {
+  background-color: darkmagenta;
+  color: lightsalmon;
+  font-size: 1rem;
+  padding: 10px;
+  display: block;
+  width: 80%;
+}
+
+.tablet,
+.desktop {
+  display: none;
+}
+
+/* Tablet */
+@media only screen and (min-width: 426px) {
+  body {
+    background-color: darkolivegreen;
+    color: blanchedalmond;
+    padding: 10px;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  .tablet {
+    display: block;
+    background-color: blanchedalmond;
+    color: darkolivegreen;
+    font-size: 1rem;
+    padding: 10px;
+    width: 75%;
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 769px) {
+  body {
+    background-color: lemonchiffon;
+    color: darkgoldenrod;
+    margin-right: -20px;
+  }
+
+  .tablet {
+    display: none;
+  }
+
+  .desktop {
+    display: block;
+    background-color: darkgoldenrod;
+    color: lemonchiffon;
+    font-size: 1rem;
+    padding: 10px;
+    width: 75%;
+  }
+}
