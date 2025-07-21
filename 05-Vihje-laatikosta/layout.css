@@ -1,0 +1,69 @@
+body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: row; /* asettelee vierekkäin */
+  align-items: flex-start; /* ylhäältä alkaen */
+  gap: 20px; /* väli konttien välille */
+}
+#content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+/* Container 1 vasempaan laitaan */
+#container1 {
+  width: 50%;
+  padding: 10px;
+}
+
+#container1 ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+#container1 li {
+  height: 4em;
+  overflow: hidden;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 0px 0px 25px 0px;
+}
+
+/* Värien vaihto: container1 alkaa vihreällä */
+#container1 li:nth-child(odd) {
+  background: rgb(121, 205, 121);
+}
+#container1 li:nth-child(even) {
+  background: white;
+}
+
+/* Container 2 oikeaan laitaan */
+#container2 {
+  width: 50%;
+  padding: 10px;
+}
+
+#container2 ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+#container2 li {
+  min-height: 8em;
+  overflow: hidden;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 0px 0px 25px 0px;
+  display: flex;
+}
+
+/* Värien vaihto: container2 alkaa valkoisella */
+#container2 li:nth-child(odd) {
+  background: white;
+}
+#container2 li:nth-child(even) {
+  background: rgb(121, 205, 121);
+}
